@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>EVA — privacy policy</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <div class="logo"><a href="index.html" style="color:inherit;text-decoration:none">EV<span>A</span></a></div>
+  <h1>Privacy policy</h1>
+  <p class="muted">Last updated: 5 November 2026</p>
+
+  <p>EVA is a private, single-user personal assistant made by Riyan Khan for his own use. The only person whose
+  data EVA handles is Riyan himself. EVA has no other users and is not offered to the public.</p>
+
+  <h2>Google data EVA can access</h2>
+  <p>Only after Riyan signs in with his own Google account and grants permission, EVA can:</p>
+  <ul>
+    <li><strong>Gmail</strong> — read and search his messages to summarise them for him; create draft emails;
+      send an email <em>only after Riyan reviews and approves that specific email</em> in the EVA app.</li>
+    <li><strong>Google Calendar</strong> — read his events, add events he asks for, and change or delete an event
+      only after he approves it.</li>
+    <li><strong>Google Tasks</strong> — read, add and complete his to-dos.</li>
+    <li><strong>Google Drive</strong> — create files (for example notes) and access only the files EVA itself
+      created. EVA cannot see his other Drive files.</li>
+  </ul>
+
+  <h2>How the data is used</h2>
+  <ul>
+    <li>Only to provide EVA's features to Riyan: answering his questions, summaries, drafts, reminders,
+      the morning brief and night recap.</li>
+    <li>Never for advertising, never sold, never used to build profiles for anyone else, and never used to train
+      AI models.</li>
+    <li>To understand a request and write a reply, the relevant text (for example the subject and content of an
+      email Riyan asked about) is sent to Anthropic's Claude API, which processes it to generate the answer.
+      Anthropic does not use API data to train its models by default. No other third party receives Google data.</li>
+    <li>No human reads the data, except Riyan himself.</li>
+  </ul>
+
+  <h2>Storage and security</h2>
+  <ul>
+    <li>EVA runs on Riyan's own private server (Oracle Cloud, India), reachable only through his private
+      network. It is not exposed to the public internet.</li>
+    <li>The Google sign-in token is stored only on that server as a protected secret file. Chat history, memories
+      and summaries are stored encrypted in its database.</li>
+    <li>Email content is fetched when needed and is not copied in bulk or kept as a separate archive.</li>
+  </ul>
+
+  <h2>Removing access and data</h2>
+  <ul>
+    <li>Riyan can revoke EVA's access at any time at
+      <a href="https://myaccount.google.com/connections">myaccount.google.com → Third-party connections</a>,
+      or with EVA's own disconnect command, which revokes the token and deletes it from the server.</li>
+    <li>Conversations, memories and other stored data can be deleted from inside the EVA app.</li>
+  </ul>
+
+  <h2>Google API Services User Data Policy</h2>
+  <p>EVA's use and transfer of information received from Google APIs adheres to the
+  <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data
+  Policy</a>, including the Limited Use requirements.</p>
+
+  <footer class="muted">Questions: <a href="mailto:riyankhan.own@gmail.com">riyankhan.own@gmail.com</a></footer>
+</main>
+</body>
+</html>
